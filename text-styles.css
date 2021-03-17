@@ -1,0 +1,157 @@
+/* Darkest: 1  2  3  4  5  6  7  8  9  10 11 12 Lightest */
+.hm-1{background-color: rgb(30, 30, 30)}
+.hm-2{background-color: rgb(50, 50, 50)}
+.hm-3{background-color: rgb(70, 70, 70)}
+.hm-4{background-color: rgb(90, 90, 90)}
+.hm-5{background-color: rgb(110, 110, 110)}
+.hm-6{background-color: rgb(130, 130, 130)}
+.hm-7{background-color: rgb(150, 150, 150)}
+.hm-8{background-color: rgb(170, 170, 170)}
+.hm-9{background-color: rgb(190, 190, 190)}
+.hm-10{background-color: rgb(210, 210, 210)}
+.hm-11{background-color: rgb(230, 230, 230)}
+.hm-12{background-color: rgb(250, 250, 250)}
+
+/* Widths: Narrow-1 50px Narrow-2 70px Narrow-3 100px
+Standard-1 150px Standard-2 200px Standard-3 250px
+Wide-1 300px Wide-2 350px Wide-3 400px */
+.narrow-1{
+    width: 100px;
+}
+
+.narrow-2{
+    width: 200px;
+}
+
+.narrow-3{
+    width: 300px;
+}
+
+.standard-1{
+    width: 400px;
+}
+
+.standard-2{
+    width: 500px;
+}
+
+.standard-3{
+    width: 600px;
+}
+
+.wide-1{
+    width: 700px;
+}
+
+.wide-2{
+    width: 800px;
+}
+
+.wide-3{
+    width: 900px;
+}
+
+.fill-container{
+    width: 100%
+}
+
+/* Heights: Small 30px Medium 50px Large 50px */
+.small{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.medium{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.medium-large{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.large{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+/* Margins: marg-1 30px marg-2 50px marg-3 50px */
+.marg-1{
+    margin: 5px 0px 5px 0px;
+}
+
+.marg-2{
+    margin: 10px 0px 10px 0px;
+}
+
+.marg-3{
+    margin: 20px 0px 20px 0px;
+}
+
+/* Buttons */
+
+.button-small{
+    width: 110px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.button-medium{
+    height: 55px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.button-large{
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+/* Profile pics */
+
+.profile-pic-xs{
+    width: 70px;
+    height: 70px;
+    transform: rotate(-10deg);
+    background-color: rgb(50, 50, 50);
+    border-radius: 10%;
+    border: 8px rgb(130, 130, 130) solid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.profile-pic-s{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-10deg);
+    border-radius: 10%;
+    border: 8px rgb(130, 130, 130) solid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.profile-pic-m{
+    width: 140px;
+    height: 140px;
+    transform: rotate(-10deg);
+    border-radius: 10%;
+    border: 8px rgb(130, 130, 130) solid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.profile-pic-l{
+    width: 170px;
+    height: 170px;
+    transform: rotate(-10deg);
+    border-radius: 10%;
+    border: 8px rgb(130, 130, 130) solid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,162 @@
+@import "./reset.css";
+@import "./text-styles.css";
+
+body{
+    margin: auto;
+    padding: 0%;
+}
+
+nav{
+    width: 100vw;
+    height: 103px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin-right: 50px;
+}
+
+.nav-item{
+    width: 90px;
+    height: 30px;
+}
+
+#articles-div{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    grid-template-rows: 1.5fr 0.8fr 0.5fr 0.5fr;
+    place-items: center / center;
+    place-content: center / center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#main-article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 80px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.article-details{
+    padding-left: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    color: #666;
+}
+
+.author-name{
+    color: #d33a2c;
+    font-weight: 700;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.article-cat{
+    text-decoration: underline;
+}
+
+.article-date{
+    font-family: 'Cormorant Unicase', serif;
+    text-transform: capitalize;
+}
+
+.article-preview{
+    color: #333;
+    font-size: 26.5px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#sub-article-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 80px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#sub-article-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 80px;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.newsletter-wrapper{
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    margin-right: 50px;
+}
+
+.newsletter{
+    height: 650px;
+    width: 400px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 125px;
+    position:relative;
+}
+
+.newsletter-logo{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    position: absolute;
+    top: -110px;
+    right: 97px;
+    margin: auto;
+    z-index: 1;
+}
+
+.newsletter-button{
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.article-footer{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contains-font:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+i{
+    text-transform: none;
+    font-style: italic;
+}
